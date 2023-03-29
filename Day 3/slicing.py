@@ -38,3 +38,8 @@ print(fragment)
 my_sentence = "Never trust a computer you can't throw out a window"
 fragment =my_sentence[8::3]
 print(fragment)
+
+"practice: reverse the position of all the characters in the sentence"
+my_sentence = "It's great to work with computers. They don't argue, they remember everything and they don't drink your beer"
+fragment = my_sentence[:: -1]
+print(fragment)
